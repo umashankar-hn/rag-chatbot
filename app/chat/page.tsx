@@ -31,7 +31,7 @@ export default function RagChatBot() {
     setInput('');
   };
   return (
-    <div className='max-w-4xl mx-auto relative p-6 size-full h-[calc(100vh)]'>
+    <div className='max-w-4xl mx-auto relative p-6 size-full h-[calc(100vh-5rem)]'>
       <div className='flex flex-col h-full'>
         <Conversation className='h-full'>
           <ConversationContent>
